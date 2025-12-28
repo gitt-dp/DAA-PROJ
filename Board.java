@@ -145,7 +145,7 @@ public class Board {
             // Fix EXACTLY one wrong tile
             if (t.getRotation() != t.solutionRotation) {
 
-                // 🔥 DIRECT correction (no rotate loop)
+                //DIRECT correction (no rotate loop)
                 t.setRotation(t.solutionRotation);
 
                 moves++;
@@ -266,3 +266,4 @@ public class Board {
         return false;
     }
 }
+
